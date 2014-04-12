@@ -13,6 +13,9 @@ sub import {}
 
  % perl -Mnoinc yourscript.pl
 
+ # To load some modules first before emptying @INC
+ % perl -Mstrict -Mwarnings -Mnoinc yourscript.pl
+
 
 =head1 DESCRIPTION
 
