@@ -2,9 +2,9 @@ package lib::none;
 
 # VERSION
 
-BEGIN { @INC = () }
-
-sub import {}
+sub import {
+    @INC = ();
+}
 
 1;
 # ABSTRACT: Empty @INC
